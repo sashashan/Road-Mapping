@@ -1,8 +1,15 @@
 // README
 
+********** Instructions to run: ********
+Copy the files on your computer.
+
+In terminal:
+cd to the source
+javac -Xlint:unchacked Reader.java
+java Reader
+
 Note: when the program is finished running, a message will be displayed in the output. Part 2 takes the longest time, but it still should not exceed 1 minute.
-Also, when the pop up window appears you will need to drag
-the corners to resize it to see the content.
+Also, when the pop up window appears wait 3 seconds and you will need to drag the corners to resize it to see the content.
 
 The road map was drawn using GUI. It's a simple class (DrawGraph.java) that takes in a hash table list (with original roads), and two 
 lists of roads, one list containing the minimum spanning tree roads and the other containing the roads connecting two given intersections.
