@@ -62,7 +62,7 @@ public class Reader
 	        // Counting the number of intersections and roads which we will need for initiating the hash tables
 	        countFile (filename);
 	        
-	        System.out.println("Testing graph in file: " + filename);
+	        System.out.println("Testing graph in file: " + filename + " ... ");
 	        String currentLine;
 	        currentLine = inputStream.readLine();
 	        
@@ -141,7 +141,7 @@ public class Reader
 	        	//i++; // we are moving through the for loop in pairs       	
 	        }
 	        
-	        System.out.println(listOfRoads2.toString());
+	        //System.out.println(listOfRoads2.toString());
 	           
 		} finally 
 		{
@@ -287,10 +287,10 @@ public class Reader
 	        }
 	        
 	        Arrays.sort(array, strcomp);
-	        for (String id: array)
-	        {
-	           System.out.println(id);
-	        }
+//	        for (String id: array)
+//	        {
+//	           System.out.println(id);
+//	        }
 	        //System.out.println(listOfRoads3.toString());
 	        
 	        //System.out.print

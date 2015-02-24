@@ -46,7 +46,7 @@ public class DrawGraph extends JComponent
 			g2.draw(shapes);
 		}
 		
-		g.setColor(Color.BLACK);
+		g.setColor(Color.BLUE);
 		
 		for (Road rr : road2)
 		{
