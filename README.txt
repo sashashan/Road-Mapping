@@ -1,5 +1,6 @@
 // README
-Note: when the program stops running, a message will be displayed in the output. Part 2 takes the longest time, but it still should not exceed 1 minute.
+
+Note: when the program is finished running, a message will be displayed in the output. Part 2 takes the longest time, but it still should not exceed 1 minute.
 Also, when the pop up window appears you will need to drag
 the corners to resize it to see the content.
 
