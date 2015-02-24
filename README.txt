@@ -7,7 +7,7 @@ the corners to resize it to see the content.
 The road map was drawn using GUI. It's a simple class (DrawGraph.java) that takes in a hash table list (with original roads), and two 
 lists of roads, one list containing the minimum spanning tree roads and the other containing the roads connecting two given intersections.
 Black color represents the original map.
-Green color - the minimum spanning tree.
+Blue color - the minimum spanning tree.
 Red color - the shortest path from two intersections. 
 
 A hash table is used to store the intersections and roads. SeparateChainingHashTable2 contains the roads while SeparateChaningHashTable
